@@ -3,7 +3,7 @@ entries:
   flagsmith:
   - apiVersion: v2
     appVersion: 2.227.0
-    created: "2026-04-13T07:33:33.741136361Z"
+    created: "2026-06-04T13:04:32.583709533Z"
     dependencies:
     - alias: devPostgresql
       condition: postgresql.enabled,devPostgresql.enabled
@@ -15,12 +15,12 @@ entries:
       repository: file://../graphite
       version: 2.0.0
     description: Flagsmith
-    digest: 8520a9303f40fd249784612750a1931a18e81c7cd513d80c9122af995ca13a13
+    digest: 4caa33d3156ecbb77e49a861990407b1dfc7cbab0b216e0bf999e140881a8aff
     icon: https://docs.flagsmith.com/img/square-icon.png
     name: flagsmith
     type: application
     urls:
-    - https://github.com/Flagsmith/flagsmith-charts/releases/download/flagsmith-0.81.0/flagsmith-0.81.0.tgz
+    - https://github.com/Flagsmith/flagsmith-charts/releases/download/flagsmith-0.82.0/flagsmith-0.81.0.tgz
     version: 0.81.0
   - apiVersion: v2
     appVersion: 2.222.0
@@ -3183,4 +3183,4 @@ entries:
     urls:
     - https://github.com/Flagsmith/flagsmith-charts/releases/download/flagsmith-0.1.0/flagsmith-0.1.0.tgz
     version: 0.1.0
-generated: "2026-04-13T07:33:33.732627709Z"
+generated: "2026-06-04T13:04:32.570613471Z"
