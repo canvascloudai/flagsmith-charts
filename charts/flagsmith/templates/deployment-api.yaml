@@ -175,8 +175,11 @@ spec:
     {{- tpl (toYaml .) $ | nindent 6 }}
 {{- end }}
 {{- end }}
-      volumes:
 {{- with .Values.api.extraVolumes }}
+      volumes:
+{{- toYaml . | nindent 6 }}
+{{- end }}
+{{- with .Values.api.extraTemplateSpec }}
 {{- toYaml . | nindent 6 }}
 {{- end }}
 {{- with .Values.api.extraSpec }}
