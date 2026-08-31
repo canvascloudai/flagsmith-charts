@@ -50,7 +50,7 @@ api:
   # deployment's pods.
   separateApiAndFrontend: true
 
-  replicacount: 1
+  replicacount: 3
   deploymentStrategy: null
   podAnnotations: {}
   resources: {}
